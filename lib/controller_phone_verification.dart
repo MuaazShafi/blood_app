@@ -12,7 +12,7 @@ class PhoneVerificationController extends GetxController {
 
   void startTimer() {
     Timer(Duration(seconds: 4), () {
-      Get.to(InformationScreen());
+      Get.offAll(InformationScreen());
     });
   }
 }

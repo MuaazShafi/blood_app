@@ -1,4 +1,4 @@
-import 'package:blood_app/phone_verification_controller.dart';
+import 'package:blood_app/controller_phone_verification.dart';
 import 'package:blood_app/widgets/light_text.dart';
 import 'package:blood_app/widgets/medium_text.dart';
 import 'package:blood_app/widgets/regular_text.dart';

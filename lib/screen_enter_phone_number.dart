@@ -1,4 +1,5 @@
 import 'package:blood_app/screen_phone_verification.dart';
+import 'package:blood_app/widgets/button.dart';
 import 'package:blood_app/widgets/medium_text.dart';
 import 'package:blood_app/widgets/regular_text.dart';
 import 'package:flutter/material.dart';
@@ -60,18 +61,8 @@ class NumberScreen extends StatelessWidget {
                     },
                     child: Padding(
                       padding: EdgeInsets.symmetric(horizontal: 5.w),
-                      child: Container(
-                        width: 100.w,
-                        height: 6.5.h,
-                        decoration: BoxDecoration(
-                          color: MyColor.redColor,
-                          borderRadius: BorderRadius.circular(10),
-                        ),
-                        child: Center(
-                          child: RegularText(
-                            text: 'Continue',
-                          ),
-                        ),
+                      child: Button(
+                        text: 'Continue',
                       ),
                     ),
                   )
